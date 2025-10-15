@@ -61,8 +61,9 @@
             background: rgba(139, 92, 246, 0.08);
             border-radius: 16px;
             padding: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
             border: 1px solid rgba(139, 92, 246, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
         
         .section-title {
@@ -125,6 +126,14 @@
             color: #34d399;
         }
         
+        .positive {
+            color: #34d399;
+        }
+        
+        .negative {
+            color: #f87171;
+        }
+        
         .financial-summary {
             background: linear-gradient(135deg, rgba(124, 58, 237, 0.2) 0%, rgba(139, 92, 246, 0.1) 100%);
             border: 1px solid #8b5cf6;
@@ -154,14 +163,6 @@
         .financial-value {
             font-weight: 700;
             font-size: 18px;
-        }
-        
-        .positive {
-            color: #34d399;
-        }
-        
-        .negative {
-            color: #f87171;
         }
         
         .total-row {
@@ -209,24 +210,6 @@
             gap: 20px;
         }
         
-        @media (max-width: 968px) {
-            .grid-2 {
-                grid-template-columns: 1fr;
-            }
-            
-            .header h1 {
-                font-size: 36px;
-            }
-            
-            body {
-                padding: 30px 15px;
-            }
-            
-            .section {
-                padding: 20px;
-            }
-        }
-        
         .event-card {
             background: rgba(139, 92, 246, 0.12);
             border-radius: 12px;
@@ -252,6 +235,24 @@
         .event-speaker {
             color: #c4b5fd;
             font-size: 14px;
+        }
+        
+        @media (max-width: 968px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 36px;
+            }
+            
+            body {
+                padding: 30px 15px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -379,19 +380,6 @@
                 <div class="item">СР (15/10) Подборка фото из Тюмени</div>
                 <div class="item">СБ (17/10) Пост с подборкой подкастов СД</div>
                 <div class="item">ВС (18/10) Путь инвестора: Владимир Лоскутов</div>
-            </div>22 068</span></div>
-                    <div class="item">Аккаунты: <span class="metric">3 907</span></div>
-                    <div class="item">Не подписчики: <span class="highlight">65%</span></div>
-                </div>
-            </div>
-
-            <div class="subsection">
-                <h3 class="subsection-title">Контент-план</h3>
-                <div class="item">ПН (13/10) — Get Investor</div>
-                <div class="item">ВТ (14/10) — Faceroom</div>
-                <div class="item">СР (15/10) — Подборка фото из Тюмени</div>
-                <div class="item">СБ (17/10) — Пост с подборкой подкастов СД</div>
-                <div class="item">ВС (18/10) — Путь инвестора: Владимир Лоскутов</div>
             </div>
         </div>
 
